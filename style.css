@@ -1,0 +1,91 @@
+body{
+background-image: url(harry.jpg);
+font-family: 'Harry Potter', sans-serif;
+                                                
+}
+.left{
+   
+    
+    top: 20px;
+    left: 0px;
+    color: beige;
+    
+}
+.right{
+    color: white;
+    
+    position: absolute;
+    top:44px;
+    right: 0px;
+}
+.mid{
+    color: white;
+   
+    position: absolute;
+    top: 44px;
+    margin: auto;
+    right: 500px;
+}
+#style{
+    display: inline-block;
+}
+.left img{
+    width: 100px;
+    text-align: center;
+    left: 20px;
+}
+.navbar li{
+    display: inline-block;
+}
+.navbar li a{
+    padding: 10px;
+   
+    display: inline block;
+    color: white;
+    font-size: 20px;
+}
+.navbar li a:hover{
+    color: grey;
+    text-decoration: grey;
+
+}
+.btn {
+    font-family: 'Harry Potter', sans-serif;
+    font-size: 20px;
+    display: inline-block;
+    text-decoration: none;
+    color: #FFF;
+    width: 120px;
+    height: 120px;
+    line-height: 120px;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+    overflow: hidden;
+    background-image: -webkit-linear-gradient(45deg, #709dff 0%, #91fdb7 100%);    
+    background-image: linear-gradient(45deg, #709dff 0%, #91fdb7 100%);
+    transition: .4s;
+}
+
+.btn:hover{
+  -webkit-transform: rotate(10deg);
+  -ms-transform: rotate(10deg);
+  transform: rotate(10deg);
+}
+.main{
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    padding: 200px;
+    margin: 20px;
+    border-radius: 25px;
+    justify-content: center;
+    text-align: center;
+    border-top-width: 1500px;
+}
+.main input{
+    
+    border-radius: 10px;
+   
+    margin: 5px;
+    font-family:  'Baloo Bhai 2', cursive;
+}
